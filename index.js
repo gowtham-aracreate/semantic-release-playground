@@ -20,6 +20,8 @@ app.get('/mul', (req, res) => res.send("4 * 2 = 8, its a Multiply"));
 
 app.get('/div', (req, res) => res.send("8 / 4 = 2, its a Division"));
 
+app.get('/health', (req, res) => res.send("my health is good"));
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });

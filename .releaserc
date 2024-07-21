@@ -6,8 +6,7 @@
             "prerelease": "develop"
         },
         {
-            "name": "feature/*",
-            "prerelease": "beta"
+            "name": "feature/*"
         }
     ],
     "plugins": [

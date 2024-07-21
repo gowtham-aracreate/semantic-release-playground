@@ -16,6 +16,8 @@ app.get("/sub", (req, res) => res.send({ message: `${4 - 3}` }))
 
 app.get('/add', (req, res) => res.send("4 + 2 = 1, its a addition"));
 
+app.get('/mul', (req, res) => res.send("4 * 2 = 8, its a Multiply"));
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });

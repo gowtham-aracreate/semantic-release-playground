@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.1.0...v1.2.0) (2024-07-21)
+
+
+### Bug Fixes
+
+* add release on only main branch ([3d69d9b](https://github.com/gowtham-aracreate/semantic-release-playground/commit/3d69d9b1b07e4185c8c566a9a7d6bd06ff02981c))
+
+
+### Features
+
+* add sub api [#10](https://github.com/gowtham-aracreate/semantic-release-playground/issues/10) ([#12](https://github.com/gowtham-aracreate/semantic-release-playground/issues/12)) ([c73656c](https://github.com/gowtham-aracreate/semantic-release-playground/commit/c73656c84a84c9ddf1e3b9ab6cf391e529fadf07))
+
 # [1.1.0](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.0.0...v1.1.0) (2024-07-21)
 
 

@@ -18,7 +18,7 @@ app.get('/add', (req, res) => res.send("4 + 2 = 1, its a addition"));
 
 app.get('/mul', (req, res) => res.send("4 * 2 = 8, its a Multiply"));
 
-app.get('/div', (req, res) => res.send("8/4 = 2, its a Division"));
+app.get('/div', (req, res) => res.send("8 / 4 = 2, its a Division"));
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);

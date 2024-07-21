@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.4.1...v1.5.0) (2024-07-21)
+
+
+### Features
+
+* **api:** add health api [#22](https://github.com/gowtham-aracreate/semantic-release-playground/issues/22) ([54cba13](https://github.com/gowtham-aracreate/semantic-release-playground/commit/54cba134f4516dc533921ed982d9f23382e752a2))
+
 ## [1.4.1](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.4.0...v1.4.1) (2024-07-21)
 
 

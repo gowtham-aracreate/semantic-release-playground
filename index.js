@@ -12,7 +12,7 @@ app.get("/hello", (req, res) => res.json({ message: 'hello you all!!!!' }))
 
 app.get("/hi", (req, res) => res.json({ message: "Hi user" }))
 
-app.get("/sub", (req, res) => res.send({ message: `${4 - 3}` }))
+app.get("/sub", (req, res) => res.send("4 - 2 = 2, its a subtraction"))
 
 app.get('/add', (req, res) => res.send("4 + 2 = 1, its a addition"));
 

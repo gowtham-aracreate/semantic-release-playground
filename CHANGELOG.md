@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.4.0...v1.4.1) (2024-07-21)
+
+
+### Bug Fixes
+
+* added space between text in devision api ([e722112](https://github.com/gowtham-aracreate/semantic-release-playground/commit/e72211272479b9285bb8c7fe1a625da09f49dc64))
+
 # [1.4.0](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.3.0...v1.4.0) (2024-07-21)
 
 

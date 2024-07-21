@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.2.0...v1.3.0) (2024-07-21)
+
+
+### Bug Fixes
+
+* adding add api definition ([984ee7f](https://github.com/gowtham-aracreate/semantic-release-playground/commit/984ee7fb9bab45d13db95ab2f4ddc7124c7ab9d1))
+
+
+### Features
+
+* add sum api [#9](https://github.com/gowtham-aracreate/semantic-release-playground/issues/9) ([75346e0](https://github.com/gowtham-aracreate/semantic-release-playground/commit/75346e0a055f7a8e4605b42db76fc1b0faa3e5fe))
+
 # [1.2.0](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.1.0...v1.2.0) (2024-07-21)
 
 

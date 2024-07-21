@@ -1,3 +1,10 @@
+# [1.1.0-develop.1](https://github.com/gowtham-aracreate/semantic-release-playground/compare/v1.0.0...v1.1.0-develop.1) (2024-07-21)
+
+
+### Features
+
+* **api:** add hello api ([#2](https://github.com/gowtham-aracreate/semantic-release-playground/issues/2)) ([348c961](https://github.com/gowtham-aracreate/semantic-release-playground/commit/348c96126a1c68e188ecdd610e54571b62044e29))
+* **api:** add welcome api ([3d39aa1](https://github.com/gowtham-aracreate/semantic-release-playground/commit/3d39aa18c4816d6651c54afc2c8748afd7bbc98d))
 
 # 1.0.0 (2024-07-21)
 

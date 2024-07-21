@@ -7,7 +7,7 @@
         },
         {
             "name": "feature/*",
-            "prerelease": true
+            "prerelease": "beta"
         }
     ],
     "plugins": [

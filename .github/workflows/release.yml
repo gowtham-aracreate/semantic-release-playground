@@ -1,29 +1,26 @@
-{
-  "branches": [
-    "main",
-    {
-      "name": "develop",
-      "prerelease": true
-    },
-    {
-      "name": "feature/*",
-      "prerelease": true
-    }
-  ],
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    "@semantic-release/npm",
-    [
-      "@semantic-release/github",
-      {
-        "assets": [
-          {"path": "build.zip", "label": "Build"},
-          {"path": "coverage.zip", "label": "Coverage"}
-        ]
-      }
-    ],
-    "@semantic-release/git"
-  ]
-}
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}

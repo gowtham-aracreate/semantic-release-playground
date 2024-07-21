@@ -14,6 +14,8 @@ app.get("/hi", (req, res) => res.json({ message: "Hi user" }))
 
 app.get("/sub", (req, res) => res.send({ message: `${4 - 3}` }))
 
+app.get('/add', (req, res) => res.send("addition"));
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
